@@ -54,6 +54,7 @@ class ColconPlugin(Plugin):
         return {
             "gcc",
             "g++",
+            "make",
             "cmake",
             "colcon",
             "python3-colcon-core",
@@ -61,6 +62,7 @@ class ColconPlugin(Plugin):
             "python3-colcon-package-selection",
             "python3-colcon-python-setup-py",
             "python3-colcon-parallel-executor",
+            "python3-colcon-recursive-crawl",
         }
 
     @override
